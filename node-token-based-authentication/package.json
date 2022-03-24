@@ -1,0 +1,31 @@
+{
+  "name": "node-token-based-authentication",
+  "version": "1.0.0",
+  "description": "A node token token-based user authentication REST API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Digamber",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.2.0",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemailer": "^6.7.2",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
