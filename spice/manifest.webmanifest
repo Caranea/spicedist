@@ -1,8 +1,8 @@
 {
   "name": "spice",
   "short_name": "spice",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "#92140C",
+  "background_color": "#1E1E24",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
