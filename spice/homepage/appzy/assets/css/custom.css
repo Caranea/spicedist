@@ -1,0 +1,74 @@
+:root {
+	--global--font-body      : 'Roboto', sans-serif;
+	--global--font-heading   : 'Rubik', sans-serif;
+	--global--color-primary  : #92140C;
+	--global--color-secondary: #92140C;
+	--global--color-body     : #DADAD9;
+	--global--color-heading  : #DADAD9;
+	--global--color-white    : #1E1E24;
+	--global--color-light    : linear-gradient(136deg, #92140C 0%, #1E1E24 100%);
+	--global--color-gray     : linear-gradient(136deg, #92140C 0%, #1E1E24 100%);
+	--global--color-pink     : #FEFBFF;
+}
+.bg-grey {
+
+}
+.shape-divider-bottom svg{
+  fill: var(--global--color-white)
+}
+.neon-text {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f09,
+    0 0 82px #f09,
+    0 0 92px #f09,
+    0 0 102px #f09,
+    0 0 151px #f09;
+}
+
+
+.flickering {
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+
+@keyframes pulsate {
+  100% {
+    /* Larger blur radius */
+    text-shadow:
+      0 0 4px #fff,
+      0 0 13px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 152px #f09;
+  }
+ 0% {
+    /* A slightly smaller blur radius */
+    text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+  }
+}
+
+a.logo {
+  font-size: 2.25rem;
+text-decoration: none;
+white-space: nowrap;
+}
+.btn-outline {
+  max-width: 120px;
+margin: 0 auto;
+background: transparent;
+border: 2px solid #dadad9;
+}
